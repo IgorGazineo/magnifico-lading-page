@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #e2e8f0;
+  background-color: #fff;
   margin: 0;
 }
 
@@ -11,6 +11,7 @@ header {
   justify-content: space-between;
   height: 96px;
   box-sizing: border-box;
+  border-bottom: 1px solid #e2e8f0;
 }
 
 header #logo {
@@ -27,6 +28,7 @@ header nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  cursor: pointer;
 }
 
 header nav ul li {
@@ -60,10 +62,14 @@ header .buttons-group a {
   padding: 12px 24px;
 }
 
-header .buttons-group button {
+.blue-button {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
   color: #fff;
   padding: 12px;
   background-color: #2563eb;
@@ -72,8 +78,32 @@ header .buttons-group button {
   height: 48px;
   border-radius: 8px;
   cursor: pointer;
+  transition: 0.3s ease all;
 }
 
-header .buttons-group button img {
+.blue-button img {
   margin-left: 16px;
+}
+
+.blue-button:hover {
+  background-color: rgba(15, 23, 42, 0.822);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 80px;
+  padding: 80px;
+}
+
+main .icons {
+  position: absolute;
+  bottom: 23px;
+  right: 24px;
+}
+
+section {
+  width: 600px;
+  height: 440px;
 }
