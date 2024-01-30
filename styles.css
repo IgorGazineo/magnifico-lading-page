@@ -1,0 +1,79 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #e2e8f0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  padding: 30.5px 24px;
+  align-items: center;
+  justify-content: space-between;
+  height: 96px;
+  box-sizing: border-box;
+}
+
+header #logo {
+  margin: 0;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 110%;
+  color: #0f172a;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 8px;
+}
+
+header nav ul li a {
+  color: #0f172a;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+header .buttons-group {
+  display: flex;
+}
+
+header .buttons-group a {
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  padding: 12px 24px;
+}
+
+header .buttons-group button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 12px;
+  background-color: #2563eb;
+  border: none;
+  width: 176px;
+  height: 48px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+header .buttons-group button img {
+  margin-left: 16px;
+}
